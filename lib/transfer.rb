@@ -26,13 +26,6 @@ class Transfer
       self.status = "rejected"
        "Transaction rejected. Please check your account balance."
     end
-     #sender wants to transfer an amount (goes into pending status)
-     #need to verify that sender has enough to cover that transfer
-    # if sender has valid account, transfer amount to balance. Subtact that amount from sender and add to receiver.
-    #make sure this happens only once 
-    #if sender has no money, reject that tranfer 
-    #make sure a transfer can be reversed and status becomes reversed. 
-     #
   end
   
   def reverse_transfer
